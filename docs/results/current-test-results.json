@@ -1,0 +1,127 @@
+{
+  "game": "DoodleDrift",
+  "campaign_revision": 3,
+  "engine_pin": "Godot 4.7.2 stable",
+  "completed_utc": "2026-11-12T15:22:30.7485321+00:00",
+  "suites": [
+    {
+      "suite": "campaign-structure",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 0.232,
+      "log": "builds/campaign-structure-console.log"
+    },
+    {
+      "suite": "python-regressions",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 1.622,
+      "log": "builds/python-regressions-console.log"
+    },
+    {
+      "suite": "project-import",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 13.362,
+      "log": "builds/project-import-console.log"
+    },
+    {
+      "suite": "test_runner",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 2.162,
+      "log": "builds/test_runner-console.log"
+    },
+    {
+      "suite": "physics_suite",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 3.095,
+      "log": "builds/physics_suite-console.log"
+    },
+    {
+      "suite": "persistence_test",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 7.069,
+      "log": "builds/persistence_test-console.log"
+    },
+    {
+      "suite": "audio_suite",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 2.614,
+      "log": "builds/audio_suite-console.log"
+    },
+    {
+      "suite": "audio_shutdown_probe",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 2.719,
+      "log": "builds/audio_shutdown_probe-console.log"
+    },
+    {
+      "suite": "ui_smoke",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 2.277,
+      "log": "builds/ui_smoke-console.log"
+    },
+    {
+      "suite": "doodledrift_ui",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 1.932,
+      "log": "builds/doodledrift_ui-console.log"
+    },
+    {
+      "suite": "integration_suite",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 8.289,
+      "log": "builds/integration_suite-console.log"
+    },
+    {
+      "suite": "puzzle_suite",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 7.903,
+      "log": "builds/puzzle_suite-console.log"
+    },
+    {
+      "suite": "revision_suite",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 11.4,
+      "log": "builds/revision_suite-console.log"
+    },
+    {
+      "suite": "stress_suite",
+      "status": "PASS",
+      "exit_code": 0,
+      "unexpected_engine_messages": 0,
+      "seconds": 16.988,
+      "log": "builds/stress_suite-console.log"
+    }
+  ],
+  "historical_excluded": [
+    {
+      "suite": "tests/campaign_physics.gd",
+      "reason": "Historical revision-2 static-support bridge bot; not a solver for revision-3 moving-island, crate-key, constrained-ink or timing puzzles."
+    }
+  ],
+  "limits": "Current structural safety, mechanics, selected actual puzzle scenarios and negative bypass checks; not a 50-level completion proof, human playthrough, Android device test, audibility test or FPS claim."
+}

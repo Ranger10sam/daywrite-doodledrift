@@ -1,0 +1,65 @@
+Momentum Quest Android debug build verification
+Verified 12 November 2026
+
+Engine: official Godot 4.7.2 stable standard GDScript build.
+Export: Android Debug APK, prebuilt official template, exit code 0.
+Artifact: builds/momentum-quest-debug.apk
+Size: 59,378,342 bytes
+SHA-256: 63a5d5931523944b3ad0343a0c0eabd5b55be730a3dcb4af2b6b5de9f148761b
+
+Android SDK build-tools 36.0.0 apksigner verifies:
+  APK Signature Scheme v2: true
+  APK Signature Scheme v3: true
+  Signers: 1 (development certificate)
+  Android zipalign 16 KB native-library alignment: verified
+
+aapt2 manifest inspection:
+  Package: com.momentumquest.game
+  Version code: 1
+  Version name: 1.0.0
+  Minimum SDK: 24
+  Target SDK: 36
+  Compile SDK: 36
+  Activity screenOrientation: 0 (landscape)
+  Exported launcher alias: com.godot.game.GodotAppLauncher
+  Native ABIs: arm64-v8a and x86_64
+  Sole requested permission: android.permission.VIBRATE
+  Primary adaptive icon XML: present and readable
+  Background, foreground, monochrome icon layers: present
+  Themed-icon alias: present, no missing-resource warning
+  FileProvider authority: com.momentumquest.game.fileprovider
+  AndroidX initialization authority: com.momentumquest.game.androidx-startup
+  Provider authorities are unique.
+
+Package integrity:
+  Every ZIP member's CRC verified.
+  All 4 data JSON files byte-identical to frozen current source.
+  50 campaign definitions present.
+  Supported PNG splash present.
+  No tools, tests, docs, builds, keystores, or portable backups packaged.
+
+Build repair and regression verification:
+  The official 4.7.2 prebuilt exporter incorrectly rewrites every provider
+  authority to .fileprovider. The included fix_android_manifest.py repairs
+  only the AndroidX authority and checks all unrelated XML attributes remain
+  unchanged. The repaired APK is then aligned, signed, and verified again.
+  Seven automated regression tests pass, including the actual exported
+  binary-XML fixture, idempotence, fail-closed malformed/missing providers,
+  retained archive contents, and removal of stale signature entries.
+  The themed-icon alias is restored from the valid primary adaptive XML.
+
+Known tool observations:
+  The managed Windows host denied reading the OS root-certificate store;
+  Godot fell back to built-in certificates and offline export succeeded.
+
+Device availability:
+  A temporary task-local adb server successfully listed devices: none attached.
+  It was stopped after the check.
+
+Not verified:
+  Installation or gameplay on Android; native document-picker round trips;
+  Android audio, touch, safe areas, background/resume, and device frame times.
+  No release AAB, production signing key, Google Play billing, or store upload.
+
+The source game is frozen to the tested version at this build. Signing ZIP
+timestamps can change a future rebuild's digest even when source is unchanged.

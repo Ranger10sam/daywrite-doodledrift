@@ -1,0 +1,5 @@
+PASS: 50 unique campaign layouts; bounds, safe spawns/goals/checkpoints,
+      terrain polygons, continuous conservative support routes, costs,
+      ramp slopes, roof/lava clearance, winds and platform bounds.
+LIMIT: static geometric feasibility only; no Godot/Android playthrough claimed.
+Campaign: 176 terrain polygons, 116 example strokes, 14 wind zones, 10 moving platforms.

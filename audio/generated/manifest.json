@@ -1,0 +1,125 @@
+{
+  "name": "DoodleDrift original soundscapes",
+  "license": "MIT (project license)",
+  "generator": "audio/generate_soundscapes.py; Python standard library only",
+  "source_samples": "None. All oscillators, noise, notes, and events synthesized from code.",
+  "biome_palettes": {
+    "valley": "Felt keys, open major harmony, soft birds, leaf-like wind",
+    "peaks": "Sparse glass bells, open fifths, airy mountain wind, distant tinkles",
+    "desert": "Warm plucked strings, Dorian colour, soft sand grains, a low warm drone",
+    "caverns": "Shimmering glass, suspended minor harmony, quiet drops with stereo echoes",
+    "volcano": "Rounded marimba-like tones, low warm harmony, gentle bubbles and soft flow"
+  },
+  "files": [
+    {
+      "file": "valley_music.wav",
+      "seconds": 25.6,
+      "sample_rate": 22050,
+      "channels": 2,
+      "peak": 0.2,
+      "rms": 0.032928456572974524,
+      "loop_join_delta": 0.0003411032909602191,
+      "bytes": 2257964,
+      "sha256": "d4c955b8292d5d61a69dca67f877091275012a9decaac1c81e52f441003dbf50"
+    },
+    {
+      "file": "valley_ambience.wav",
+      "seconds": 32.0,
+      "sample_rate": 22050,
+      "channels": 2,
+      "peak": 0.11,
+      "rms": 0.016686615133358285,
+      "loop_join_delta": 0.0,
+      "bytes": 2822444,
+      "sha256": "697a6b95e4c82f572d4b59242583954be1fabee5a9df86d09a92dc3947967670"
+    },
+    {
+      "file": "peaks_music.wav",
+      "seconds": 25.6,
+      "sample_rate": 22050,
+      "channels": 2,
+      "peak": 0.2,
+      "rms": 0.02918930853920217,
+      "loop_join_delta": 0.00011699326974066785,
+      "bytes": 2257964,
+      "sha256": "c0745d385ee7ec2628cca5131d4b004767f98d7afea51a4d05dc74fc57c7ea92"
+    },
+    {
+      "file": "peaks_ambience.wav",
+      "seconds": 32.0,
+      "sample_rate": 22050,
+      "channels": 2,
+      "peak": 0.11,
+      "rms": 0.01599114034028855,
+      "loop_join_delta": 0.00032798420591874047,
+      "bytes": 2822444,
+      "sha256": "611d90fdc06893cf40ac1aaefb34a81dd3d400bbd315e0f3628f51538f43b6e6"
+    },
+    {
+      "file": "desert_music.wav",
+      "seconds": 25.6,
+      "sample_rate": 22050,
+      "channels": 2,
+      "peak": 0.2,
+      "rms": 0.03356809519909605,
+      "loop_join_delta": 0.00018931435678028747,
+      "bytes": 2257964,
+      "sha256": "ca0039b89927339d635a306a5ed00f9b4b5d7e4eb68a2364a3bab5310bff8b7c"
+    },
+    {
+      "file": "desert_ambience.wav",
+      "seconds": 32.0,
+      "sample_rate": 22050,
+      "channels": 2,
+      "peak": 0.11,
+      "rms": 0.018038270740577313,
+      "loop_join_delta": 0.0008572390966931104,
+      "bytes": 2822444,
+      "sha256": "bdbcd057d98834bf193d59a07b0043849cbfc57e4079bc138b97fae8ba12dda9"
+    },
+    {
+      "file": "caverns_music.wav",
+      "seconds": 25.6,
+      "sample_rate": 22050,
+      "channels": 2,
+      "peak": 0.2,
+      "rms": 0.03310739897752617,
+      "loop_join_delta": 0.00030485790156611615,
+      "bytes": 2257964,
+      "sha256": "5efd263de0b77ca3f90f0dae40cde4afd219b11048df9ef4be1cd3e3a41a22bc"
+    },
+    {
+      "file": "caverns_ambience.wav",
+      "seconds": 32.0,
+      "sample_rate": 22050,
+      "channels": 2,
+      "peak": 0.11,
+      "rms": 0.017267391729578335,
+      "loop_join_delta": 0.002109535513951314,
+      "bytes": 2822444,
+      "sha256": "5787229748c95be1a19588eae4fd04f17e9f77cd52928b158b71f2218d2facfd"
+    },
+    {
+      "file": "volcano_music.wav",
+      "seconds": 25.6,
+      "sample_rate": 22050,
+      "channels": 2,
+      "peak": 0.2,
+      "rms": 0.03311153379828991,
+      "loop_join_delta": 0.0002836800254649517,
+      "bytes": 2257964,
+      "sha256": "862db5c868bff48c80a0c814417ee750e111e36b8549e2b58383646d2025154c"
+    },
+    {
+      "file": "volcano_ambience.wav",
+      "seconds": 32.0,
+      "sample_rate": 22050,
+      "channels": 2,
+      "peak": 0.11,
+      "rms": 0.016500874336063138,
+      "loop_join_delta": 0.0009616160570185689,
+      "bytes": 2822444,
+      "sha256": "6e8a66352a898a1e15495d7df231ff9ef14a70860bdcc5db4a7f6f2900ec8955"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+test_input_output_must_differ (test_android_manifest.ManifestRepairTests.test_input_output_must_differ) ... ok
+test_missing_known_provider_fails_closed (test_android_manifest.ManifestRepairTests.test_missing_known_provider_fails_closed) ... ok
+test_rebuild_preserves_assets_and_removes_stale_signatures (test_android_manifest.ManifestRepairTests.test_rebuild_preserves_assets_and_removes_stale_signatures) ... ok
+test_repair_is_idempotent (test_android_manifest.ManifestRepairTests.test_repair_is_idempotent) ... ok
+test_repairs_real_exported_fixture (test_android_manifest.ManifestRepairTests.test_repairs_real_exported_fixture) ... ok
+test_truncated_manifest_fails_closed (test_android_manifest.ManifestRepairTests.test_truncated_manifest_fails_closed) ... ok
+test_wrong_binary_xml_type_fails_closed (test_android_manifest.ManifestRepairTests.test_wrong_binary_xml_type_fails_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.073s
+
+OK

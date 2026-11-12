@@ -1,0 +1,94 @@
+Running campaign-structure...
+PASS: 50 unique revision-3 campaign definitions; bounds, safe spawns/goals/checkpoints,
+      polygons, allowed ink/build regions, bounded resources/wind/platforms,
+      crate identifiers and matching gate keys.
+LIMIT: structural safety only. No continuous support witness, all-level solution,
+       Engineer-budget proof, manual playthrough, or Android result is claimed.
+Campaign: 233 terrain polygons, 109 example strokes, 23 wind zones, 30 moving platforms.
+Running python-regressions...
+test_self_crossing_terrain_is_rejected (test_campaign_validator.CurrentCampaignStructureTests.test_self_crossing_terrain_is_rejected) ... ok
+test_spawn_inside_terrain_is_rejected (test_campaign_validator.CurrentCampaignStructureTests.test_spawn_inside_terrain_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 1.171s
+
+OK
+Running project-import...
+[ DONE ] reimport
+
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+
+Running test_runner...
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS: 165 reservoir, geometry and drawing regression checks
+Running physics_suite...
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS: 42 actual Godot fixed-step physics regression checks
+Running persistence_test...
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+Persistence: 32 checks, 0 failures; export KDF+encryption 565 ms on this host.
+Running audio_suite...
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+Audio: 55 checks, 0 failures; state, routing, cached loops, bounded fades, suspend/resume and cue throttles. No audibility claim.
+Running audio_shutdown_probe...
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+Audio immediate-shutdown probe reached active loop playback.
+Running ui_smoke...
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+UI_SMOKE_PASS: menus, settings, draw HUD, completion, indexed multitouch, pause release
+Running doodledrift_ui...
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+DOODLEDRIFT_UI: 30 checks, 0 failures
+Running integration_suite...
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+INTEGRATION: 121 checks, 0 failures
+Running puzzle_suite...
+PASS grippy Solid chute does not substitute for Ice
+parcel routing (813.0967, 565.3801) / (1113.097, 565.3804) strokes 2 
+PASS two actual chutes deliver both labelled parcels to their own switches
+drive final (1652.938, 702.3) apex (140.0, 702.3)
+PASS both parcel doors lead to the actual goal
+PASS all 50 revised puzzle sessions load with safe starts
+PUZZLES: 20 checks, 0 failures
+Running revision_suite...
+PASS both supported endpoints anchor the bridge
+PASS physical left boundary contains player
+PASS physical right boundary contains player
+PASS unweighted pressure plate leaves gate closed
+PASS dropped physical weight opens pressure-plate gate
+PASS all 50 levels reject right-plus-repeated-jump bypass
+REVISION: 8 checks; 0 failures
+Running stress_suite...
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+STRESS: 615 checks, 0 failures; {"batch32_stroke_generation_wall_ms":38.463,"checkpoint_reset_cycles":100,"checks":615,"construction_wall_ms":249.539,"engine":"4.7.2-stable (official)","engine_physics_monitor_max_ms":256.451,"engine_physics_monitor_p50_ms":256.451,"engine_physics_monitor_p95_ms":256.451,"failures":[],"headless_step_wall_max_ms":2.961,"headless_step_wall_p50_ms":0.534,"headless_step_wall_p95_ms":0.956,"level_switch_peak_nodes":96,"level_switches":100,"live_profile":false,"max_complexity_collision_shapes":512,"max_complexity_segments":512,"max_complexity_strokes":32,"maximum_player_speed":705.887878417969,"measurement_limit":"Headless Windows fixed-step simulation only; no Android/GPU frame rate, touch latency, thermal or battery claim. Per-step wall time includes scheduling and scripts. Engine physics monitor is reported separately.","pause_resume_cycles":100,"peak_player_simultaneous_contacts":2,"peak_tree_nodes_at512segments":567,"physics_hz":60,"profile_ticks":1000,"profile_wall_ms":571.455,"profile_warmup_ticks":120}
+Current test runner: 14 suites, 0 failures.

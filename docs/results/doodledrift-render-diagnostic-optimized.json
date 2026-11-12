@@ -1,0 +1,97 @@
+{
+	"adapter": "Intel(R) Graphics",
+	"engine": "4.7.2-stable (official)",
+	"limit": "Native Windows Intel host with maxfps60; layer-isolation phases alter rendering only and are diagnostic, not production performance claims.",
+	"phases": [
+		{
+			"background_draw_ms": {
+				"max": 5.009,
+				"median": 2.919,
+				"p95": 3.771
+			},
+			"draw_calls": {
+				"max": 274.0,
+				"median": 274.0,
+				"p95": 274.0
+			},
+			"focused_frames": 120,
+			"frame_ms": {
+				"max": 48.272,
+				"median": 42.429,
+				"p95": 46.693
+			},
+			"phase": "baseline",
+			"physics_ms": {
+				"max": 3.443,
+				"median": 2.365,
+				"p95": 3.443
+			},
+			"primitives": {
+				"max": 16515.0,
+				"median": 16515.0,
+				"p95": 16515.0
+			},
+			"process_ms": {
+				"max": 44.818,
+				"median": 42.8,
+				"p95": 44.818
+			},
+			"samples": 120,
+			"states": {
+				"playing": 120
+			},
+			"world_draw_ms": {
+				"max": 0.967,
+				"median": 0.455,
+				"p95": 0.797
+			}
+		},
+		{
+			"background_draw_ms": {
+				"max": 4.445,
+				"median": 2.167,
+				"p95": 3.687
+			},
+			"draw_calls": {
+				"max": 274.0,
+				"median": 274.0,
+				"p95": 274.0
+			},
+			"focused_frames": 120,
+			"frame_ms": {
+				"max": 47.358,
+				"median": 40.894,
+				"p95": 45.449
+			},
+			"phase": "baseline_repeat",
+			"physics_ms": {
+				"max": 2.245,
+				"median": 2.055,
+				"p95": 2.245
+			},
+			"primitives": {
+				"max": 16517.0,
+				"median": 16517.0,
+				"p95": 16517.0
+			},
+			"process_ms": {
+				"max": 43.337,
+				"median": 41.861,
+				"p95": 42.91
+			},
+			"samples": 120,
+			"states": {
+				"playing": 120
+			},
+			"world_draw_ms": {
+				"max": 1.074,
+				"median": 0.441,
+				"p95": 0.968
+			}
+		}
+	],
+	"viewport": [
+		1280,
+		720
+	]
+}

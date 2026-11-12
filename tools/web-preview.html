@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#FFF9F0">
+  <title>DoodleDrift — A little adventure by Daywrite</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+    @font-face{font-family:Fredoka;src:url('fonts/Fredoka-Variable.ttf') format('truetype');font-weight:300 700;font-display:swap}
+    @font-face{font-family:Nunito;src:url('fonts/Nunito-Variable.ttf') format('truetype');font-weight:200 1000;font-display:swap}
+    html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#FFF9F0;color:#344054;font:18px Nunito,system-ui,sans-serif}
+    #canvas{display:block;width:100%;height:100%;outline:none;touch-action:none}
+    #loading{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at 25% 15%,#D8EDFF,transparent 65%),radial-gradient(ellipse at 85% 90%,#D7EDE2,transparent 65%),#FFF9F0;z-index:2}
+    .card{max-width:580px;padding:40px;text-align:center}
+    .orb{position:relative;width:70px;height:70px;border-radius:50%;margin:0 auto 28px;background:radial-gradient(circle at 35% 30%,#FFF1DE,#FFCAA6 60%,#DCA081);box-shadow:0 10px 20px #34405418}
+    .orb:before{content:'•  •';position:absolute;left:23px;top:24px;font:bold 14px Nunito;color:#344054}
+    .orb:after{content:'';position:absolute;left:29px;top:43px;width:12px;height:6px;border-bottom:2px solid #344054;border-radius:0 0 12px 12px}
+    h1{font:600 58px Fredoka,system-ui;letter-spacing:-1px;margin:0 0 6px}p{color:#647286;line-height:1.6}.subtitle{font-size:18px;margin:0 0 24px;color:#344054}
+    button{padding:17px 38px;border:2px solid #7AB09A;border-radius:20px;background:#A8DFC8;color:#344054;font:500 22px Fredoka,system-ui;cursor:pointer;box-shadow:0 5px 0 #8CBBA94D}
+    button:hover{background:#C0EAD9}button:focus-visible{outline:3px solid #876CAC;outline-offset:4px}
+    button:disabled{opacity:.6;cursor:wait}#status{min-height:30px;white-space:pre-line}progress{width:270px;height:7px;accent-color:#A8DFC8;display:none;margin:24px auto}
+  </style>
+</head>
+<body>
+  <canvas id="canvas" tabindex="0" aria-label="DoodleDrift game"></canvas>
+  <div id="loading"><div class="card"><div class="orb"></div><h1>DoodleDrift</h1><p class="subtitle">A little adventure by Daywrite</p><p>A tiny ball. A world of possibilities.<br>Draw your way forward.</p><button id="start">Start playing</button><progress id="progress"></progress><p id="status">A / D to roll · Space to jump · E to draw</p></div></div>
+  <script src="godot.editor.js"></script>
+  <script>
+    const start = document.getElementById('start');
+    const status = document.getElementById('status');
+    const progress = document.getElementById('progress');
+    const canvas = document.getElementById('canvas');
+    const missing = Engine.getMissingFeatures({threads:true});
+    if(missing.length){start.disabled=true;status.textContent='This browser needs: '+missing.join('\n');}
+    start.addEventListener('click',async()=>{
+      start.disabled=true;
+      status.textContent='Loading your journey…';
+      progress.style.display='block';
+      const engine = new Engine({
+        executable:'godot.editor',mainPack:'index.pck',canvas:canvas,
+        canvasResizePolicy:2,focusCanvas:true,unloadAfterInit:true,
+        persistentPaths:['/userfs'],emscriptenPoolSize:12,godotPoolSize:4,
+        args:['--single-window'],
+        onProgress:(loaded,total)=>{if(total){progress.max=total;progress.value=loaded;}},
+        onExit:()=>{document.getElementById('loading').style.display='flex';status.textContent='Your journey has closed. Refresh to play again.';}
+      });
+      window.doodledriftEngine=engine;
+      try{
+        await engine.startGame();
+        document.getElementById('loading').style.display='none';
+        canvas.focus();
+      }catch(error){status.textContent=String(error);console.error(error);}
+    });
+    canvas.addEventListener('contextmenu',event=>event.preventDefault());
+  </script>
+</body>
+</html>

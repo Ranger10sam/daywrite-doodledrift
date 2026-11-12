@@ -1,0 +1,3 @@
+androidx.core.content.FileProvider: com.momentumquest.game.fileprovider
+androidx.startup.InitializationProvider: com.momentumquest.game.androidx-startup
+Manifest repaired; zipalign and re-sign this unsigned APK before use.

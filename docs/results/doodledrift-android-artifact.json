@@ -1,0 +1,29 @@
+{
+  "game": "DoodleDrift",
+  "application_id": "com.momentumquest.game",
+  "application_label": "DoodleDrift",
+  "minimum_sdk": 24,
+  "target_sdk": 36,
+  "abis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "permissions": [
+    "android.permission.VIBRATE"
+  ],
+  "offline_loops": 10,
+  "campaign_levels": 50,
+  "current_configs_byte_identical": true,
+  "font_and_project_notices_bundled": true,
+  "qa_and_private_directories_excluded": true,
+  "signatures": [
+    "v2",
+    "v3"
+  ],
+  "native_page_alignment_kb": 16,
+  "debug_certificate_unchanged": true,
+  "limits": "Export/signature/resource inspection only; no device installation, gameplay, performance or production-release verification.",
+  "apk_bytes": 65489675,
+  "apk_sha256": "32d3d2c6549552c9336164507e12b2626c6330835276e2d9f88bb98404cffe19",
+  "debug_certificate_sha256": "0d42de67fac2a9531d446bae2fb668e5a55df4bb30f4c2beaf046e3b9ed8aefd"
+}

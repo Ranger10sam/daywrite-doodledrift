@@ -1,0 +1,97 @@
+{
+  "engine": "4.7.2-stable (official)",
+  "adapter": "Intel(R) Graphics",
+  "viewport": [
+    1280,
+    720
+  ],
+  "scenario": "Production Level50 idle, full animated pastel background/world/HUD, audio active; maxfps60; 80warmup+120samples per phase; coordinated quiet browser/build/test processes.",
+  "before": {
+    "background_draw_ms": {
+      "max": 6.216,
+      "median": 2.369,
+      "p95": 5.046
+    },
+    "draw_calls": {
+      "max": 396.0,
+      "median": 396.0,
+      "p95": 396.0
+    },
+    "focused_frames": 120,
+    "frame_ms": {
+      "max": 62.784,
+      "median": 48.897,
+      "p95": 57.897
+    },
+    "phase": "baseline_repeat",
+    "physics_ms": {
+      "max": 4.735,
+      "median": 4.432,
+      "p95": 4.735
+    },
+    "primitives": {
+      "max": 23909.0,
+      "median": 23909.0,
+      "p95": 23909.0
+    },
+    "process_ms": {
+      "max": 48.558,
+      "median": 46.353,
+      "p95": 48.558
+    },
+    "samples": 120,
+    "states": {
+      "playing": 120
+    },
+    "world_draw_ms": {
+      "max": 3.37,
+      "median": 1.633,
+      "p95": 3.051
+    }
+  },
+  "after": {
+    "background_draw_ms": {
+      "max": 4.445,
+      "median": 2.167,
+      "p95": 3.687
+    },
+    "draw_calls": {
+      "max": 274.0,
+      "median": 274.0,
+      "p95": 274.0
+    },
+    "focused_frames": 120,
+    "frame_ms": {
+      "max": 47.358,
+      "median": 40.894,
+      "p95": 45.449
+    },
+    "phase": "baseline_repeat",
+    "physics_ms": {
+      "max": 2.245,
+      "median": 2.055,
+      "p95": 2.245
+    },
+    "primitives": {
+      "max": 16517.0,
+      "median": 16517.0,
+      "p95": 16517.0
+    },
+    "process_ms": {
+      "max": 43.337,
+      "median": 41.861,
+      "p95": 42.91
+    },
+    "samples": 120,
+    "states": {
+      "playing": 120
+    },
+    "world_draw_ms": {
+      "max": 1.074,
+      "median": 0.441,
+      "p95": 0.968
+    }
+  },
+  "changes": "Same-position flower artwork cached as two MultiMesh sprite batches; identical cloud puffs cached as a small texture. No gameplay geometry, physics, layout, camera, animation-rate or particle-count change.",
+  "limitations": "Two native Windows runs, not Android certification or GPU timer profiling. OS scheduling/presentation included. Native measured40.894ms median remains near24FPS;60FPS target NOT met."
+}

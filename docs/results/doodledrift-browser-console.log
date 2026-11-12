@@ -1,0 +1,5 @@
+### Result
+Total messages: 4 (Errors: 1, Warnings: 0)
+Returning 1 messages for level "warning"
+
+[ERROR] Blocking on the main thread is very dangerous, see https://emscripten.org/docs/porting/pthreads.html#blocking-on-the-main-browser-thread @ http://localhost:8080/godot.editor.js:344

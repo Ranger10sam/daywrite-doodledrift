@@ -1,0 +1,859 @@
+{
+	"engine": "4.7.2-stable (official)",
+	"levels": [
+		{
+			"failed_hazard": false,
+			"final": [
+				1636.36877441406,
+				542.2890625
+			],
+			"frames": 224,
+			"id": 1,
+			"ink_used": 0.0,
+			"jump_requests": 0,
+			"maximum_speed": 461.894470214844,
+			"name": "First Roll",
+			"placed": 0,
+			"placement_error": "",
+			"simulation_seconds": 3.73333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1738.95678710938,
+				572.231872558594
+			],
+			"frames": 275,
+			"id": 2,
+			"ink_used": 0.0,
+			"jump_requests": 0,
+			"maximum_speed": 546.670043945313,
+			"name": "Uphill Battle",
+			"placed": 0,
+			"placement_error": "",
+			"simulation_seconds": 4.58333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1636.951171875,
+				542.299987792969
+			],
+			"frames": 237,
+			"id": 3,
+			"ink_used": 10.8,
+			"jump_requests": 0,
+			"maximum_speed": 474.291107177734,
+			"name": "Missing Path",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 3.95,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1756.56811523438,
+				552.299987792969
+			],
+			"frames": 277,
+			"id": 4,
+			"ink_used": 16.7140659713745,
+			"jump_requests": 0,
+			"maximum_speed": 480.944000244141,
+			"name": "Build a Launch",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 4.61666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1757.35949707031,
+				562.078247070313
+			],
+			"frames": 385,
+			"id": 5,
+			"ink_used": 34.2709782600403,
+			"jump_requests": 1,
+			"maximum_speed": 732.767028808594,
+			"name": "Spring Forward",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 6.41666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1877.99792480469,
+				462.300018310547
+			],
+			"frames": 267,
+			"id": 6,
+			"ink_used": 33.6,
+			"jump_requests": 0,
+			"maximum_speed": 505.819488525391,
+			"name": "Speed Trail",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 4.45,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1818.45666503906,
+				532.299987792969
+			],
+			"frames": 258,
+			"id": 7,
+			"ink_used": 20.7,
+			"jump_requests": 0,
+			"maximum_speed": 608.285949707031,
+			"name": "Slippery Slope",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 4.3,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1758.69445800781,
+				572.294006347656
+			],
+			"frames": 253,
+			"id": 8,
+			"ink_used": 5.40832703590393,
+			"jump_requests": 0,
+			"maximum_speed": 479.981323242188,
+			"name": "Breaking Point",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 4.21666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1986.5732421875,
+				582.299987792969
+			],
+			"frames": 301,
+			"id": 9,
+			"ink_used": 18.845426902771,
+			"jump_requests": 0,
+			"maximum_speed": 503.423889160156,
+			"name": "Double Solution",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 5.01666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2436.57299804688,
+				502.299987792969
+			],
+			"frames": 412,
+			"id": 10,
+			"ink_used": 75.0160606956482,
+			"jump_requests": 0,
+			"maximum_speed": 790.994750976563,
+			"name": "Valley Finale",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 6.86666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1870.33361816406,
+				542.275146484375
+			],
+			"frames": 278,
+			"id": 11,
+			"ink_used": 11.4,
+			"jump_requests": 0,
+			"maximum_speed": 570.408569335938,
+			"name": "Snowline",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 4.63333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2019.28942871094,
+				462.300018310547
+			],
+			"frames": 356,
+			"id": 12,
+			"ink_used": 35.0355038166046,
+			"jump_requests": 0,
+			"maximum_speed": 505.177764892578,
+			"name": "Blue Switchback",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 5.93333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1920.36157226563,
+				502.296966552734
+			],
+			"frames": 305,
+			"id": 13,
+			"ink_used": 31.5893454551697,
+			"jump_requests": 0,
+			"maximum_speed": 479.647674560547,
+			"name": "Needle Landing",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 5.08333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2212.05737304688,
+				512.300659179688
+			],
+			"frames": 325,
+			"id": 14,
+			"ink_used": 27.9,
+			"jump_requests": 0,
+			"maximum_speed": 650.713073730469,
+			"name": "Glacier Run",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 5.41666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2050.05151367188,
+				552.205383300781
+			],
+			"frames": 342,
+			"id": 15,
+			"ink_used": 17.1693170356751,
+			"jump_requests": 0,
+			"maximum_speed": 517.416198730469,
+			"name": "The Quiet Shelf",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 5.7,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2109.548828125,
+				602.299987792969
+			],
+			"frames": 418,
+			"id": 16,
+			"ink_used": 55.3962741851807,
+			"jump_requests": 0,
+			"maximum_speed": 824.412231445313,
+			"name": "Frost Arc",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 6.96666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2090.78515625,
+				562.298645019531
+			],
+			"frames": 364,
+			"id": 17,
+			"ink_used": 32.2584376144409,
+			"jump_requests": 0,
+			"maximum_speed": 541.093872070313,
+			"name": "Polished Teeth",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 6.06666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2290.2080078125,
+				492.300018310547
+			],
+			"frames": 356,
+			"id": 18,
+			"ink_used": 50.9471135902404,
+			"jump_requests": 0,
+			"maximum_speed": 527.484741210938,
+			"name": "Cyan Express",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 5.93333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2299.57641601563,
+				542.30078125
+			],
+			"frames": 403,
+			"id": 19,
+			"ink_used": 41.4977017021179,
+			"jump_requests": 0,
+			"maximum_speed": 587.460571289063,
+			"name": "Snowbridge Study",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 6.71666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2800.43627929688,
+				462.300018310547
+			],
+			"frames": 563,
+			"id": 20,
+			"ink_used": 84.8539899730682,
+			"jump_requests": 1,
+			"maximum_speed": 766.080993652344,
+			"name": "Crown of Winter",
+			"placed": 4,
+			"placement_error": "",
+			"simulation_seconds": 9.38333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1946.6044921875,
+				482.300018310547
+			],
+			"frames": 280,
+			"id": 21,
+			"ink_used": 13.2,
+			"jump_requests": 0,
+			"maximum_speed": 464.944274902344,
+			"name": "A Gentle Headwind",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 4.66666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2056.74536132813,
+				612.176208496094
+			],
+			"frames": 369,
+			"id": 22,
+			"ink_used": 26.208395576477,
+			"jump_requests": 1,
+			"maximum_speed": 718.68310546875,
+			"name": "Dune Rider",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 6.15,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2038.45202636719,
+				572.228515625
+			],
+			"frames": 303,
+			"id": 23,
+			"ink_used": 29.8881137466431,
+			"jump_requests": 0,
+			"maximum_speed": 575.54736328125,
+			"name": "Return Current",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 5.05,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2187.93725585938,
+				502.220733642578
+			],
+			"frames": 313,
+			"id": 24,
+			"ink_used": 26.4,
+			"jump_requests": 0,
+			"maximum_speed": 463.461517333984,
+			"name": "Caravan Crossing",
+			"placed": 1,
+			"placement_error": "",
+			"simulation_seconds": 5.21666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2016.38549804688,
+				432.259735107422
+			],
+			"frames": 334,
+			"id": 25,
+			"ink_used": 45.9363008880615,
+			"jump_requests": 0,
+			"maximum_speed": 573.795654296875,
+			"name": "Windward Stair",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 5.56666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2176.88525390625,
+				572.207763671875
+			],
+			"frames": 360,
+			"id": 26,
+			"ink_used": 24.1411278247834,
+			"jump_requests": 0,
+			"maximum_speed": 591.276489257813,
+			"name": "Sandglass",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 6.0,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2256.44287109375,
+				552.299987792969
+			],
+			"frames": 474,
+			"id": 27,
+			"ink_used": 40.0854433822632,
+			"jump_requests": 1,
+			"maximum_speed": 565.776123046875,
+			"name": "The High Ferry",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 7.9,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2407.0146484375,
+				492.300018310547
+			],
+			"frames": 378,
+			"id": 28,
+			"ink_used": 57.4264073181153,
+			"jump_requests": 0,
+			"maximum_speed": 556.535827636719,
+			"name": "Amber Jet",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 6.3,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2586.18481445313,
+				472.300018310547
+			],
+			"frames": 405,
+			"id": 29,
+			"ink_used": 55.2894434165954,
+			"jump_requests": 0,
+			"maximum_speed": 499.947845458984,
+			"name": "Two Caravans",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 6.75,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2886.0009765625,
+				462.299987792969
+			],
+			"frames": 462,
+			"id": 30,
+			"ink_used": 66.305707654953,
+			"jump_requests": 0,
+			"maximum_speed": 584.8017578125,
+			"name": "Eye of the Sirocco",
+			"placed": 4,
+			"placement_error": "",
+			"simulation_seconds": 7.7,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				1947.23571777344,
+				432.299987792969
+			],
+			"frames": 366,
+			"id": 31,
+			"ink_used": 31.3967483711243,
+			"jump_requests": 0,
+			"maximum_speed": 463.310241699219,
+			"name": "First Facet",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 6.1,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2077.76440429688,
+				492.288177490234
+			],
+			"frames": 317,
+			"id": 32,
+			"ink_used": 23.4380229949951,
+			"jump_requests": 0,
+			"maximum_speed": 480.716552734375,
+			"name": "Prism Tunnel",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 5.28333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2227.52661132813,
+				322.299987792969
+			],
+			"frames": 589,
+			"id": 33,
+			"ink_used": 88.3697070121766,
+			"jump_requests": 1,
+			"maximum_speed": 759.772033691406,
+			"name": "Amethyst Springs",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 9.81666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2098.42822265625,
+				412.300018310547
+			],
+			"frames": 345,
+			"id": 34,
+			"ink_used": 36.6003434944153,
+			"jump_requests": 0,
+			"maximum_speed": 482.658508300781,
+			"name": "Needle Eye",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 5.75,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2497.37524414063,
+				452.299987792969
+			],
+			"frames": 483,
+			"id": 35,
+			"ink_used": 64.8364647960663,
+			"jump_requests": 0,
+			"maximum_speed": 709.829528808594,
+			"name": "Lantern Gallery",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 8.05,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2536.7685546875,
+				312.300018310547
+			],
+			"frames": 523,
+			"id": 36,
+			"ink_used": 55.4046040534973,
+			"jump_requests": 0,
+			"maximum_speed": 487.898132324219,
+			"name": "Crystal Elevator",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 8.71666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2267.48681640625,
+				522.299987792969
+			],
+			"frames": 403,
+			"id": 37,
+			"ink_used": 46.9622148513794,
+			"jump_requests": 0,
+			"maximum_speed": 501.028411865234,
+			"name": "Violet Channel",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 6.71666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2518.8681640625,
+				332.299987792969
+			],
+			"frames": 476,
+			"id": 38,
+			"ink_used": 44.8942375659943,
+			"jump_requests": 0,
+			"maximum_speed": 494.592041015625,
+			"name": "The Split Prism",
+			"placed": 4,
+			"placement_error": "",
+			"simulation_seconds": 7.93333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2548.68774414063,
+				312.299987792969
+			],
+			"frames": 485,
+			"id": 39,
+			"ink_used": 93.1404299354554,
+			"jump_requests": 0,
+			"maximum_speed": 707.768249511719,
+			"name": "Resonant Vault",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 8.08333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2838.7314453125,
+				262.299987792969
+			],
+			"frames": 595,
+			"id": 40,
+			"ink_used": 97.5972112083435,
+			"jump_requests": 0,
+			"maximum_speed": 729.312927246094,
+			"name": "Heart of the Geode",
+			"placed": 4,
+			"placement_error": "",
+			"simulation_seconds": 9.91666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2017.626953125,
+				572.299987792969
+			],
+			"frames": 302,
+			"id": 41,
+			"ink_used": 26.9530241775513,
+			"jump_requests": 0,
+			"maximum_speed": 558.216369628906,
+			"name": "Warm Welcome",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 5.03333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2178.4609375,
+				512.1513671875
+			],
+			"frames": 388,
+			"id": 42,
+			"ink_used": 32.2669086742401,
+			"jump_requests": 0,
+			"maximum_speed": 569.285278320313,
+			"name": "Ashfall Steps",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 6.46666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2306.17724609375,
+				472.300018310547
+			],
+			"frames": 343,
+			"id": 43,
+			"ink_used": 41.4498827362061,
+			"jump_requests": 0,
+			"maximum_speed": 498.864685058594,
+			"name": "Furnace Ferry",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 5.71666666666667,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2408.81518554688,
+				492.300018310547
+			],
+			"frames": 360,
+			"id": 44,
+			"ink_used": 37.690786857605,
+			"jump_requests": 0,
+			"maximum_speed": 651.815856933594,
+			"name": "Cooling Channel",
+			"placed": 2,
+			"placement_error": "",
+			"simulation_seconds": 6.0,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2526.99267578125,
+				572.299987792969
+			],
+			"frames": 422,
+			"id": 45,
+			"ink_used": 35.8024397277832,
+			"jump_requests": 0,
+			"maximum_speed": 573.946411132813,
+			"name": "Cinder Rhythm",
+			"placed": 4,
+			"placement_error": "",
+			"simulation_seconds": 7.03333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2466.82104492188,
+				352.299987792969
+			],
+			"frames": 494,
+			"id": 46,
+			"ink_used": 86.5975118923187,
+			"jump_requests": 0,
+			"maximum_speed": 741.834228515625,
+			"name": "Pressure Rise",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 8.23333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2357.48901367188,
+				542.299987792969
+			],
+			"frames": 366,
+			"id": 47,
+			"ink_used": 39.4578442955017,
+			"jump_requests": 0,
+			"maximum_speed": 511.735656738281,
+			"name": "Basalt Passage",
+			"placed": 3,
+			"placement_error": "",
+			"simulation_seconds": 6.1,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2618.1826171875,
+				512.299987792969
+			],
+			"frames": 506,
+			"id": 48,
+			"ink_used": 77.2432726764678,
+			"jump_requests": 0,
+			"maximum_speed": 706.75341796875,
+			"name": "Ember Causeway",
+			"placed": 4,
+			"placement_error": "",
+			"simulation_seconds": 8.43333333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				2876.84252929688,
+				292.300018310547
+			],
+			"frames": 665,
+			"id": 49,
+			"ink_used": 97.8225281238556,
+			"jump_requests": 1,
+			"maximum_speed": 700.497314453125,
+			"name": "The Last Ascent",
+			"placed": 4,
+			"placement_error": "",
+			"simulation_seconds": 11.0833333333333,
+			"solved": true
+		},
+		{
+			"failed_hazard": false,
+			"final": [
+				3278.529296875,
+				372.248504638672
+			],
+			"frames": 645,
+			"id": 50,
+			"ink_used": 102.934621553421,
+			"jump_requests": 0,
+			"maximum_speed": 707.235778808594,
+			"name": "Find Your Momentum",
+			"placed": 5,
+			"placement_error": "",
+			"simulation_seconds": 10.75,
+			"solved": true
+		}
+	],
+	"method": "Production LevelWorld, QuestBall and DrawingController; fixed-step axis/brake/jump bot. No teleports or direct velocity writes after initial spawn. Normal resources, staged intended strokes, live regeneration, production hazards/wind/ferries/goals. Not a manual touch or Android test.",
+	"passed": 50,
+	"physics_hz": 60,
+	"total": 50
+}

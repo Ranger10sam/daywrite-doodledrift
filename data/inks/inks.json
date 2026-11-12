@@ -1,0 +1,7 @@
+{
+  "solid": {"name": "Solid", "color": "#AFC3CB", "cost": 1.0, "friction": 0.75, "bounce_speed": 0.0, "boost_force": 0.0, "break_delay": -1.0, "pattern": "parallel"},
+  "bounce": {"name": "Bounce", "color": "#C5AFF1", "cost": 2.5, "friction": 0.65, "bounce_speed": 650.0, "boost_force": 0.0, "break_delay": -1.0, "pattern": "waves"},
+  "boost": {"name": "Boost", "color": "#FFCAA6", "cost": 2.0, "friction": 0.55, "bounce_speed": 0.0, "boost_force": 1800.0, "break_delay": -1.0, "pattern": "arrows"},
+  "ice": {"name": "Ice", "color": "#B7DFFF", "cost": 1.5, "friction": 0.015, "bounce_speed": 0.0, "boost_force": 0.0, "break_delay": -1.0, "pattern": "diamonds"},
+  "fragile": {"name": "Fragile", "color": "#F5B3C5", "cost": 0.5, "friction": 0.7, "bounce_speed": 0.0, "boost_force": 0.0, "break_delay": 3.2, "pattern": "dashes"}
+}

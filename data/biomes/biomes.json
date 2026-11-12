@@ -1,0 +1,7 @@
+[
+  {"id":0,"name":"Green Valley","accent":"#A8DFC8","sky_top":"#E8F5EE","sky_bottom":"#FFF9F0","terrain":"#AECDBB","mechanic":"Rolling and five inks"},
+  {"id":1,"name":"Frozen Peaks","accent":"#B7DFFF","sky_top":"#E1EFF9","sky_bottom":"#FFF9F0","terrain":"#9FBFD0","mechanic":"Ice, slopes, and controlled braking"},
+  {"id":2,"name":"Desert Winds","accent":"#FFCAA6","sky_top":"#F8E9DA","sky_bottom":"#FFF9F0","terrain":"#D5B8A0","mechanic":"Wind and moving sandstone ferries"},
+  {"id":3,"name":"Crystal Caverns","accent":"#C5AFF1","sky_top":"#EEE6F8","sky_bottom":"#FAF2F3","terrain":"#B29EC7","mechanic":"Vertical routes and low crystal roofs"},
+  {"id":4,"name":"Volcanic Core","accent":"#F5B3C5","sky_top":"#F5E0E6","sky_bottom":"#FFEEDF","terrain":"#9F91A9","mechanic":"Lava, timing, and multi-ink mastery"}
+]

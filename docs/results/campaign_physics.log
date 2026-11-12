@@ -1,0 +1,55 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS L01 First Roll | frames=224 final=(1636.4,542.3) ink=0.0 placed=0/0
+PASS L02 Uphill Battle | frames=275 final=(1739.0,572.2) ink=0.0 placed=0/0
+PASS L03 Missing Path | frames=237 final=(1637.0,542.3) ink=10.8 placed=1/1
+PASS L04 Build a Launch | frames=277 final=(1756.6,552.3) ink=16.7 placed=1/1
+PASS L05 Spring Forward | frames=385 final=(1757.4,562.1) ink=34.3 placed=1/1
+PASS L06 Speed Trail | frames=267 final=(1878.0,462.3) ink=33.6 placed=1/1
+PASS L07 Slippery Slope | frames=258 final=(1818.5,532.3) ink=20.7 placed=1/1
+PASS L08 Breaking Point | frames=253 final=(1758.7,572.3) ink=5.4 placed=1/1
+PASS L09 Double Solution | frames=301 final=(1986.6,582.3) ink=18.8 placed=2/2
+PASS L10 Valley Finale | frames=412 final=(2436.6,502.3) ink=75.0 placed=3/3
+PASS L11 Snowline | frames=278 final=(1870.3,542.3) ink=11.4 placed=1/1
+PASS L12 Blue Switchback | frames=356 final=(2019.3,462.3) ink=35.0 placed=2/2
+PASS L13 Needle Landing | frames=305 final=(1920.4,502.3) ink=31.6 placed=2/2
+PASS L14 Glacier Run | frames=325 final=(2212.1,512.3) ink=27.9 placed=1/1
+PASS L15 The Quiet Shelf | frames=342 final=(2050.1,552.2) ink=17.2 placed=2/2
+PASS L16 Frost Arc | frames=418 final=(2109.5,602.3) ink=55.4 placed=2/2
+PASS L17 Polished Teeth | frames=364 final=(2090.8,562.3) ink=32.3 placed=3/3
+PASS L18 Cyan Express | frames=356 final=(2290.2,492.3) ink=50.9 placed=2/2
+PASS L19 Snowbridge Study | frames=403 final=(2299.6,542.3) ink=41.5 placed=3/3
+PASS L20 Crown of Winter | frames=563 final=(2800.4,462.3) ink=84.9 placed=4/4
+PASS L21 A Gentle Headwind | frames=280 final=(1946.6,482.3) ink=13.2 placed=1/1
+PASS L22 Dune Rider | frames=369 final=(2056.7,612.2) ink=26.2 placed=1/1
+PASS L23 Return Current | frames=303 final=(2038.5,572.2) ink=29.9 placed=2/2
+PASS L24 Caravan Crossing | frames=313 final=(2187.9,502.2) ink=26.4 placed=1/1
+PASS L25 Windward Stair | frames=334 final=(2016.4,432.3) ink=45.9 placed=2/2
+PASS L26 Sandglass | frames=360 final=(2176.9,572.2) ink=24.1 placed=3/3
+PASS L27 The High Ferry | frames=474 final=(2256.4,552.3) ink=40.1 placed=2/2
+PASS L28 Amber Jet | frames=378 final=(2407.0,492.3) ink=57.4 placed=2/2
+PASS L29 Two Caravans | frames=405 final=(2586.2,472.3) ink=55.3 placed=3/3
+PASS L30 Eye of the Sirocco | frames=462 final=(2886.0,462.3) ink=66.3 placed=4/4
+PASS L31 First Facet | frames=366 final=(1947.2,432.3) ink=31.4 placed=2/2
+PASS L32 Prism Tunnel | frames=317 final=(2077.8,492.3) ink=23.4 placed=2/2
+PASS L33 Amethyst Springs | frames=589 final=(2227.5,322.3) ink=88.4 placed=3/3
+PASS L34 Needle Eye | frames=345 final=(2098.4,412.3) ink=36.6 placed=3/3
+PASS L35 Lantern Gallery | frames=483 final=(2497.4,452.3) ink=64.8 placed=3/3
+PASS L36 Crystal Elevator | frames=523 final=(2536.8,312.3) ink=55.4 placed=3/3
+PASS L37 Violet Channel | frames=403 final=(2267.5,522.3) ink=47.0 placed=3/3
+PASS L38 The Split Prism | frames=476 final=(2518.9,332.3) ink=44.9 placed=4/4
+PASS L39 Resonant Vault | frames=485 final=(2548.7,312.3) ink=93.1 placed=3/3
+PASS L40 Heart of the Geode | frames=595 final=(2838.7,262.3) ink=97.6 placed=4/4
+PASS L41 Warm Welcome | frames=302 final=(2017.6,572.3) ink=27.0 placed=2/2
+PASS L42 Ashfall Steps | frames=388 final=(2178.5,512.2) ink=32.3 placed=3/3
+PASS L43 Furnace Ferry | frames=343 final=(2306.2,472.3) ink=41.4 placed=2/2
+PASS L44 Cooling Channel | frames=360 final=(2408.8,492.3) ink=37.7 placed=2/2
+PASS L45 Cinder Rhythm | frames=422 final=(2527.0,572.3) ink=35.8 placed=4/4
+PASS L46 Pressure Rise | frames=494 final=(2466.8,352.3) ink=86.6 placed=3/3
+PASS L47 Basalt Passage | frames=366 final=(2357.5,542.3) ink=39.5 placed=3/3
+PASS L48 Ember Causeway | frames=506 final=(2618.2,512.3) ink=77.2 placed=4/4
+PASS L49 The Last Ascent | frames=665 final=(2876.8,292.3) ink=97.8 placed=4/4
+PASS L50 Find Your Momentum | frames=645 final=(3278.5,372.2) ink=102.9 placed=5/5
+Campaign physics replay: 50/50 reached production finish triggers

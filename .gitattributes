@@ -1,0 +1,20 @@
+* text=auto
+*.gd text eol=lf
+*.godot text eol=lf
+*.tscn text eol=lf
+*.cfg text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.html text eol=lf
+*.svg text eol=lf
+*.cmd text eol=crlf
+*.ttf binary
+*.wav binary
+*.png binary
+*.axml binary
+# Preserve downloaded notices byte-for-byte, including upstream whitespace.
+assets/fonts/*-OFL.txt -text whitespace=-blank-at-eol
+# Captured diagnostics retain their original spacing.
+docs/results/** whitespace=-blank-at-eol,-blank-at-eof

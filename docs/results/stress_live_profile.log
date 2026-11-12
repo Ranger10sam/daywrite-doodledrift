@@ -1,0 +1,5 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+STRESS: 13 checks, 0 failures; {"batch32_stroke_generation_wall_ms":45.239,"checks":13,"construction_wall_ms":215.124,"engine":"4.7.2-stable (official)","engine_physics_monitor_max_ms":1.149,"engine_physics_monitor_p50_ms":0.757,"engine_physics_monitor_p95_ms":1.149,"failures":[],"headless_step_wall_max_ms":33.345,"headless_step_wall_p50_ms":16.645,"headless_step_wall_p95_ms":16.726,"live_profile":true,"max_complexity_collision_shapes":512,"max_complexity_segments":512,"max_complexity_strokes":32,"maximum_player_speed":703.277770996094,"measurement_limit":"Headless Windows fixed-step simulation only; no Android/GPU frame rate, touch latency, thermal or battery claim. Per-step wall time includes scheduling and scripts. Engine physics monitor is reported separately.","peak_player_simultaneous_contacts":2,"peak_tree_nodes_at512segments":564,"physics_hz":60,"profile_ticks":1000,"profile_wall_ms":16682.577,"profile_warmup_ticks":120}

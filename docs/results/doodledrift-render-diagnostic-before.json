@@ -1,0 +1,269 @@
+{
+	"adapter": "Intel(R) Graphics",
+	"engine": "4.7.2-stable (official)",
+	"limit": "Native Windows Intel host with maxfps60; layer-isolation phases alter rendering only and are diagnostic, not production performance claims.",
+	"phases": [
+		{
+			"background_draw_ms": {
+				"max": 7.117,
+				"median": 4.251,
+				"p95": 5.674
+			},
+			"draw_calls": {
+				"max": 396.0,
+				"median": 396.0,
+				"p95": 396.0
+			},
+			"focused_frames": 120,
+			"frame_ms": {
+				"max": 76.832,
+				"median": 54.756,
+				"p95": 64.753
+			},
+			"phase": "baseline",
+			"physics_ms": {
+				"max": 6.633,
+				"median": 4.606,
+				"p95": 6.633
+			},
+			"primitives": {
+				"max": 23909.0,
+				"median": 23907.0,
+				"p95": 23909.0
+			},
+			"process_ms": {
+				"max": 57.621,
+				"median": 50.332,
+				"p95": 57.621
+			},
+			"samples": 120,
+			"states": {
+				"playing": 120
+			},
+			"world_draw_ms": {
+				"max": 3.327,
+				"median": 2.579,
+				"p95": 3.139
+			}
+		},
+		{
+			"background_draw_ms": {
+				"max": 4.664,
+				"median": 4.664,
+				"p95": 4.664
+			},
+			"draw_calls": {
+				"max": 396.0,
+				"median": 396.0,
+				"p95": 396.0
+			},
+			"focused_frames": 120,
+			"frame_ms": {
+				"max": 50.67,
+				"median": 44.628,
+				"p95": 49.12
+			},
+			"phase": "static_background",
+			"physics_ms": {
+				"max": 5.613,
+				"median": 4.378,
+				"p95": 5.613
+			},
+			"primitives": {
+				"max": 23909.0,
+				"median": 23909.0,
+				"p95": 23909.0
+			},
+			"process_ms": {
+				"max": 40.092,
+				"median": 38.944,
+				"p95": 40.092
+			},
+			"samples": 120,
+			"states": {
+				"playing": 120
+			},
+			"world_draw_ms": {
+				"max": 3.42,
+				"median": 2.046,
+				"p95": 3.092
+			}
+		},
+		{
+			"background_draw_ms": {
+				"max": 4.664,
+				"median": 4.664,
+				"p95": 4.664
+			},
+			"draw_calls": {
+				"max": 226.0,
+				"median": 226.0,
+				"p95": 226.0
+			},
+			"focused_frames": 120,
+			"frame_ms": {
+				"max": 51.05,
+				"median": 44.654,
+				"p95": 49.564
+			},
+			"phase": "no_background",
+			"physics_ms": {
+				"max": 5.058,
+				"median": 4.589,
+				"p95": 5.055
+			},
+			"primitives": {
+				"max": 15898.0,
+				"median": 15898.0,
+				"p95": 15898.0
+			},
+			"process_ms": {
+				"max": 40.044,
+				"median": 38.802,
+				"p95": 39.557
+			},
+			"samples": 120,
+			"states": {
+				"playing": 120
+			},
+			"world_draw_ms": {
+				"max": 3.472,
+				"median": 2.158,
+				"p95": 3.219
+			}
+		},
+		{
+			"background_draw_ms": {
+				"max": 5.338,
+				"median": 2.9,
+				"p95": 4.627
+			},
+			"draw_calls": {
+				"max": 210.0,
+				"median": 210.0,
+				"p95": 210.0
+			},
+			"focused_frames": 120,
+			"frame_ms": {
+				"max": 42.883,
+				"median": 38.49,
+				"p95": 41.999
+			},
+			"phase": "no_world",
+			"physics_ms": {
+				"max": 1.252,
+				"median": 0.981,
+				"p95": 1.252
+			},
+			"primitives": {
+				"max": 13165.0,
+				"median": 13165.0,
+				"p95": 13165.0
+			},
+			"process_ms": {
+				"max": 41.517,
+				"median": 41.339,
+				"p95": 41.517
+			},
+			"samples": 120,
+			"states": {
+				"playing": 120
+			},
+			"world_draw_ms": {
+				"max": 0.946,
+				"median": 0.946,
+				"p95": 0.946
+			}
+		},
+		{
+			"background_draw_ms": {
+				"max": 5.102,
+				"median": 2.44,
+				"p95": 4.725
+			},
+			"draw_calls": {
+				"max": 356.0,
+				"median": 356.0,
+				"p95": 356.0
+			},
+			"focused_frames": 120,
+			"frame_ms": {
+				"max": 60.901,
+				"median": 48.307,
+				"p95": 54.843
+			},
+			"phase": "no_ui",
+			"physics_ms": {
+				"max": 4.881,
+				"median": 4.182,
+				"p95": 4.881
+			},
+			"primitives": {
+				"max": 18755.0,
+				"median": 18755.0,
+				"p95": 18755.0
+			},
+			"process_ms": {
+				"max": 47.298,
+				"median": 44.652,
+				"p95": 47.298
+			},
+			"samples": 120,
+			"states": {
+				"playing": 120
+			},
+			"world_draw_ms": {
+				"max": 3.504,
+				"median": 1.533,
+				"p95": 3.275
+			}
+		},
+		{
+			"background_draw_ms": {
+				"max": 6.216,
+				"median": 2.369,
+				"p95": 5.046
+			},
+			"draw_calls": {
+				"max": 396.0,
+				"median": 396.0,
+				"p95": 396.0
+			},
+			"focused_frames": 120,
+			"frame_ms": {
+				"max": 62.784,
+				"median": 48.897,
+				"p95": 57.897
+			},
+			"phase": "baseline_repeat",
+			"physics_ms": {
+				"max": 4.735,
+				"median": 4.432,
+				"p95": 4.735
+			},
+			"primitives": {
+				"max": 23909.0,
+				"median": 23909.0,
+				"p95": 23909.0
+			},
+			"process_ms": {
+				"max": 48.558,
+				"median": 46.353,
+				"p95": 48.558
+			},
+			"samples": 120,
+			"states": {
+				"playing": 120
+			},
+			"world_draw_ms": {
+				"max": 3.37,
+				"median": 1.633,
+				"p95": 3.051
+			}
+		}
+	],
+	"viewport": [
+		1280,
+		720
+	]
+}
